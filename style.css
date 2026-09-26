@@ -1,9 +1,64 @@
-li {
-    margin-bottom: 10px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-li button {
-    font-size: 12px;
+h1 {
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+}
+
+#item {
+    padding: 4px 8px;
+    border-radius: 1rem;
+    font-size: 20px;
+}
+
+#add-item {
+    background-color: rgb(36, 160, 237);
+    color: white;
+    padding: 8px 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+#add-item:hover {
+    background-color: white;
+    color: rgb(36, 160, 237);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+
+    border-radius: 1rem;
+}
+
+span {
+    font-size: 20px;
+}
+
+#remove-button {
     margin-left: 20px;
-    color: #666;
+    background-color: white;
+    padding: 4px 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+#remove-button:hover {
+    background-color: rgb(36, 160, 237);
+    color: white;
 }

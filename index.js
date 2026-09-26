@@ -17,16 +17,24 @@ button.addEventListener("click", (event) => {
     // Clear the input element
     input.value = "";
 
-    // Create new element for <li>, <span> and <button>
+    // Create new element for <li>, checkbox, <span> and <button>
     const li = document.createElement("li");
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox"
+    checkbox.id = "checkbox"
+
     const span = document.createElement("span");
+
     const removeButton = document.createElement("button");
+    removeButton.id = "remove-button";
 
     // Adds text to the span element and button
     span.textContent = shoppingItem;
     removeButton.textContent = "Remove";
 
-    // Append span and button element as the children of the list element
+    // Append checkbox, span and button element as the children of the list element
+    li.append(checkbox);
     li.appendChild(span);
     li.appendChild(removeButton);
 
