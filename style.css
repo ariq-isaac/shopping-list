@@ -11,9 +11,12 @@ label {
 }
 
 #item {
+    margin: 5px 0;
     padding: 4px 8px;
     border-radius: 1rem;
     font-size: 20px;
+
+    border: 2px solid rgb(36, 160, 237);
 }
 
 #add-item {
@@ -22,11 +25,14 @@ label {
     padding: 8px 1rem;
     border-radius: 1rem;
     font-weight: bold;
+
+    border: 2px solid white;
 }
 
 #add-item:hover {
     background-color: white;
     color: rgb(36, 160, 237);
+    border: 2px solid rgb(36, 160, 237);
 }
 
 ul {
@@ -56,6 +62,9 @@ span {
     padding: 4px 1rem;
     border-radius: 1rem;
     font-weight: bold;
+
+    color: rgb(36, 160, 237);
+    border: 2px solid rgb(36, 160, 237);
 }
 
 #remove-button:hover {
