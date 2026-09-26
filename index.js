@@ -7,6 +7,11 @@ const button = document.getElementById("add-item");
 button.addEventListener("click", (event) => {
     event.preventDefault();
 
+    // If input is empty, don't create a new element
+    if (input.value === "") {
+        return;
+    }
+
     // Store the current value of input in a variable
     const shoppingItem = input.value;
     // Clear the input element
